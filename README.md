@@ -1,0 +1,1 @@
+The first file to be added to the newly created freedom project folder where the freedom project will be located.
