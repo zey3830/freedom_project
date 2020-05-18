@@ -63,6 +63,13 @@
       </div>
     </nav>
     
+    <script>
+        $(document).ready(function() {
+          // Close nav on click
+          $('.navbar-collapse a').click(function(){$(".navbar-collapse").collapse('hide');});
+        });
+    </script>
+    
     <h1>Hello World!</h1>
   </body>
 </html>
