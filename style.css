@@ -1,0 +1,32 @@
+.debug {
+    border: solid;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 100;
+}
+
+#background {
+    width: 80vw;
+    height: 100vh;
+    margin-left: 10vw;
+    /*border-left: solid lightgray;*/
+    /*border-right: solid lightgray;*/
+}
+
+#base {
+    width: 80vw;
+    height: 100vh;
+    margin-left: 10vw;
+    border-left: solid;
+    border-right: solid;
+}
+
+#title {
+    margin-top: 10vh;
+    text-align: center;
+    border-bottom: solid rgb(240,240,240);
+}
