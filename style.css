@@ -13,16 +13,36 @@
     width: 80vw;
     height: 170vh;
     margin-left: 10vw;
-    /*border-left: solid lightgray;*/
-    /*border-right: solid lightgray;*/
 }
 
 #background_time {
     width: 80vw;
     height: 100vh;
     margin-left: 10vw;
-    /*border-left: solid lightgray;*/
-    /*border-right: solid lightgray;*/
+}
+
+#background_plan {
+    width: 80vw;
+    height: 100vh;
+    margin-left: 10vw;
+}
+
+#background_start {
+    width: 80vw;
+    height: 100vh;
+    margin-left: 10vw;
+}
+
+#background_history {
+    width: 80vw;
+    height: 100vh;
+    margin-left: 10vw;
+}
+
+#background_about {
+    width: 80vw;
+    height: 100vh;
+    margin-left: 10vw;
 }
 
 #base {
