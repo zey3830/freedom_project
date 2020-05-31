@@ -1,5 +1,5 @@
 .debug {
-    /*border: solid;*/
+    border: solid;
 }
 
 .navbar {
@@ -12,6 +12,14 @@
 #background {
     width: 80vw;
     height: 170vh;
+    margin-left: 10vw;
+    /*border-left: solid lightgray;*/
+    /*border-right: solid lightgray;*/
+}
+
+#background_time {
+    width: 80vw;
+    height: 100vh;
     margin-left: 10vw;
     /*border-left: solid lightgray;*/
     /*border-right: solid lightgray;*/

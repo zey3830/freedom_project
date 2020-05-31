@@ -72,9 +72,30 @@
 
     <div>
       <div class="card">
-        <div id="background" class="shadow">
+        <div id="background_time" class="shadow">
           <div id="title" class="card-body">
-            <h1>Time</h1>
+            <h1>Market Time</h1>
+          </div>
+          
+          <div class="card-body debug">
+            <dl>
+              <dt>Opening & Closing</dt>
+              <dd>- Most market open locally around 9am to 10am and close around 4pm to 5pm</dd>
+              <dd>- NYSE, NASDAQ, TSX (Toronot stock exchange), the Shanghai stock exchange all open at 9:30am</dd>
+              <dd>- Depending on the market, they might have lunch breaks and closed on holidays</dd>
+              
+              <dt>Crashes</dt>
+              <dd>To prevent market crash, the circuit breaker method are used (currently the following markets are using it, NYSE & The Chicago Mercantile Exchange and the Investment Industry Regulatory Organization of Canada (IIROC))</dd>
+              
+              <dd style="margin-top: 30px">- 10% drop before 2pm, market close for 1 hour</dd>
+              <dd>- Between 2pm & 2:30pm, market close for 1 hour 30 minutes</dd>
+              
+              <dd style="margin-top: 20px">- 20% drop before 1pm, market close for 2 hours</dd>
+              <dd>- Between 1pm & 2pm, market close for 1 hour</dd>
+              <dd>- After 2pm, market close for the day</dd>
+              
+              <dd style="margin-top: 20px">- 30% drop anytime of day, market close for the day</dd>
+            </dl>
           </div>
         </div>
       </div>
