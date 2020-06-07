@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../style.css">
 
@@ -26,7 +28,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="dropdown">
-        <a class="navbar-brand" type="button" data-toggle="dropdown">Stocks & Market</a>
+        <a class="navbar-brand nav_font" type="button" data-toggle="dropdown">Stocks & Market</a>
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
@@ -71,29 +73,29 @@
     </script>
 
     <div>
-      <div class="card">
+      <div class="card background_image">
         <div id="background_time" class="shadow">
-          <div id="title" class="card-body">
-            <h1>Market Time</h1>
+          <div id="title" class="card-body background_title_image title_image_resize_secondary">
+            <h1 class="title_resize_secondary">Market Time</h1>
           </div>
-          
-          <div class="card-body debug">
+
+          <div class="card-body content_size debug">
             <dl>
-              <dt>Opening & Closing</dt>
+              <dt class="header_size">Opening & Closing</dt>
               <dd>- Most market open locally around 9am to 10am and close around 4pm to 5pm</dd>
               <dd>- NYSE, NASDAQ, TSX (Toronot stock exchange), the Shanghai stock exchange all open at 9:30am</dd>
               <dd>- Depending on the market, they might have lunch breaks and closed on holidays</dd>
-              
-              <dt>Crashes</dt>
+
+              <dt class="header_size">Crashes</dt>
               <dd>To prevent market crash, the circuit breaker method are used (currently the following markets are using it, NYSE & The Chicago Mercantile Exchange and the Investment Industry Regulatory Organization of Canada (IIROC))</dd>
-              
+
               <dd style="margin-top: 30px">- 10% drop before 2pm, market close for 1 hour</dd>
                 <dd style="text-indent: 50px">- Between 2pm & 2:30pm, market close for 1 hour 30 minutes</dd>
-              
+
               <dd style="margin-top: 20px">- 20% drop before 1pm, market close for 2 hours</dd>
                 <dd style="text-indent: 50px">- Between 1pm & 2pm, market close for 1 hour</dd>
                 <dd style="text-indent: 50px">- After 2pm, market close for the day</dd>
-              
+
               <dd style="margin-top: 20px">- 30% drop anytime of day, market close for the day</dd>
             </dl>
           </div>

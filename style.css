@@ -13,30 +13,40 @@
     width: 80vw;
     height: 170vh;
     margin-left: 10vw;
+    background: white;
+    margin-top: -35px;
 }
 
 #background_time {
     width: 80vw;
-    height: 100vh;
+    height: 104vh;
     margin-left: 10vw;
+    background: white;
+    margin-top: -35px;
 }
 
 #background_plan {
     width: 80vw;
-    height: 100vh;
+    height: 104vh;
     margin-left: 10vw;
+    background: white;
+    margin-top: -35px;
 }
 
 #background_start {
     width: 80vw;
-    height: 100vh;
+    height: 104vh;
     margin-left: 10vw;
+    background: white;
+    margin-top: -35px;
 }
 
 #background_history {
     width: 80vw;
     height: 160vh;
     margin-left: 10vw;
+    background: white;
+    margin-top: -35px;
 }
 
 #background_about {
@@ -57,4 +67,209 @@
     margin-top: 10vh;
     text-align: center;
     border-bottom: solid rgb(240,240,240);
+    color: white;
+}
+
+.background_image {
+    background: url("image/stock_image.jpg");
+}
+
+.background_title_image {
+    background: url("image/stock_market.PNG");
+}
+
+/*Large*/
+@media screen and (min-width: 992px) {
+    
+    .header_size {
+        font-size: 30px;
+    }
+    
+    .content_size {
+        font-size: 20px;
+    }
+    
+    .title_image_resize {
+        height: 35vh;
+    }
+    
+    .title_resize {
+        margin-top: 55px;
+    }
+    
+    .title_size {
+        font-size: 45px;
+    }
+    
+    .background_title_image {
+        background: url("image/stock_market_enlarge.jpg");
+    }
+    
+    #background {
+        width: 80vw;
+        height: 200vh;
+        margin-left: 10vw;
+        background: white;
+        margin-top: -35px;
+    }
+    
+    #background_time {
+        width: 80vw;
+        height: 110vh;
+        margin-left: 10vw;
+        background: white;
+        margin-top: -35px;
+    }
+    
+    #background_plan {
+        width: 80vw;
+        height: 130vh;
+        margin-left: 10vw;
+        background: white;
+        margin-top: -35px;
+    }
+    
+    #background_start {
+        width: 80vw;
+        height: 105vh;
+        margin-left: 10vw;
+        background: white;
+        margin-top: -35px;
+    }
+    
+    #background_history {
+        width: 80vw;
+        height: 200vh;
+        margin-left: 10vw;
+        background: white;
+        margin-top: -35px;
+    }
+    
+    #background_about {
+        width: 80vw;
+        height: 100vh;
+        margin-left: 10vw;
+    }
+    
+    .title_image_resize_secondary {
+        height: 25vh;
+    }
+    
+    .title_resize_secondary {
+        margin-top: 45px;
+        font-size: 60px;
+    }
+    
+    .navbar {
+      height: 8%;
+      font-size: 25px;
+    }
+    
+    .nav_font {
+        font-size: 25px;
+    }
+}
+
+/*Extra Extra Large*/
+@media screen and (min-width: 1700px) {
+    
+     .header_size {
+        font-size: 50px;
+    }
+    
+    .content_size {
+        font-size: 30px;
+    }
+    
+    .title_image_resize {
+        height: 50vh;
+    }
+    
+    .title_resize {
+        margin-top: 100px;
+    }
+    
+    .title_size {
+        font-size: 50px;
+    }
+    
+    .background_title_image {
+        background: url("image/stock_market_enlarge.jpg");
+    }
+    
+    #background {
+        width: 80vw;
+        height: 255vh;
+        margin-left: 10vw;
+        background: white;
+        margin-top: -35px;
+    }
+    
+    #background_time {
+        width: 80vw;
+        height: 140vh;
+        margin-left: 10vw;
+        background: white;
+        margin-top: -35px;
+    }
+    
+    #background_plan {
+        width: 80vw;
+        height: 170vh;
+        margin-left: 10vw;
+        background: white;
+        margin-top: -35px;
+    }
+    
+    #background_start {
+        width: 80vw;
+        height: 130vh;
+        margin-left: 10vw;
+        background: white;
+        margin-top: -35px;
+    }
+    
+    #background_history {
+        width: 80vw;
+        height: 260vh;
+        margin-left: 10vw;
+        background: white;
+        margin-top: -35px;
+    }
+    
+    #background_about {
+        width: 80vw;
+        height: 100vh;
+        margin-left: 10vw;
+    }
+    
+    #base {
+        width: 80vw;
+        height: 100vh;
+        margin-left: 10vw;
+        border-left: solid;
+        border-right: solid;
+    }
+    
+    .title_image_resize_secondary {
+        height: 30vh;
+    }
+    
+    .title_resize_secondary {
+        margin-top: 60px;
+        font-size: 80px;
+    }
+    
+    .navbar {
+      height: 10%;
+      font-size: 30px;
+    }
+    
+    .nav_font {
+        font-size: 30px;
+    }
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
 }
